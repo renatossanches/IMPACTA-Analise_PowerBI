@@ -1,12 +1,12 @@
-# 📊 Análise de Óbitos no Brasil - 2022 (Power BI)
+# 📊 Análise da População Brasileira por Região - 2010 a 2022 (Power BI)
 
 ## 📌 Sobre o Projeto
 
-Este projeto apresenta um **dashboard analítico desenvolvido no Power BI** para análise da distribuição de óbitos de moradores no Brasil no ano de 2022.  
+Este projeto apresenta um **dashboard analítico desenvolvido no Power BI** para análise da evolução da população brasileira entre os anos de 2010 e 2022.  
 
-Os dados utilizados são provenientes do **Instituto Brasileiro de Geografia e Estatística (IBGE)**, permitindo a visualização de indicadores importantes relacionados à mortalidade no país.
+Os dados utilizados são provenientes do Instituto Brasileiro de Geografia e Estatística (IBGE), com base no **Censo Demográfico**, permitindo a visualização de indicadores relevantes sobre o crescimento populacional no país.
 
-O objetivo principal do painel é **apresentar de forma visual e interativa a distribuição dos óbitos no território brasileiro**, permitindo identificar padrões regionais, estados com maior concentração de registros e a participação percentual de cada região no total nacional.
+O objetivo principal do painel é **apresentar de forma visual e interativa a evolução da população brasileira ao longo do tempo**, possibilitando identificar tendências de crescimento, diferenças regionais e a participação de cada região no total nacional.
 
 ---
 
@@ -18,30 +18,31 @@ O objetivo principal do painel é **apresentar de forma visual e interativa a di
 | Pedro Henrique Mendonça Amorim | 2301517 |
 | Anderson de Oliveira de Souza  | 2302073 |
 
-
 ---
 
 ## 🔗 Links do Entregável
 
 - 📋 **Trello:**  
-  https://trello.com/b/IlrF2NYO/analise-censo-demografico  
+  https://trello.com/b/IlrF2NYO/analise-powerbi  
 
 - 📊 **API do IBGE:**  
-  https://apisidra.ibge.gov.br/values/t/6584/n2/all/n3/all/v/allxp/p/all/c322/72249/c321/72245/c420/10917  
+**IBGE (2010):** https://shre.ink/IBGE-2010 \
+**IBGE (2022):** https://shre.ink/IBGE-2022
 
 - 🎥 **Vídeo**
 
-[![Assistir vídeo](https://i.ibb.co/k6stPnF6/Captura-de-Tela-2.png)](https://www.loom.com/share/ebdc30deb03641a9ba06c132f2ebbf75)
+[![Assistir vídeo](https://i.ibb.co/FFT6S0V/Dashboard-Principal.png)](https://www.loom.com/share/a5bb8863ac334280a95f8b43550e2158)
 
 ---
+
 ## 🎯 Objetivo do Dashboard
 
 O dashboard foi desenvolvido com os seguintes objetivos:
 
-- Apresentar o **total de óbitos registrados no Brasil**
-- Identificar **regiões com maior concentração de registros**
-- Comparar **quantidade de óbitos entre os estados**
-- Visualizar a **distribuição geográfica da mortalidade**
+- Apresentar o **total da população brasileira em 2010 e 2022**
+- Identificar **regiões com maior crescimento populacional**
+- Comparar **a evolução da população entre estados e regiões**
+- Visualizar a **distribuição geográfica da população**
 - Facilitar a **interpretação estatística através de visualizações interativas**
 
 ---
@@ -50,10 +51,12 @@ O dashboard foi desenvolvido com os seguintes objetivos:
 
 A análise apresenta alguns indicadores importantes:
 
-- **Total de óbitos no Brasil:** 3.961.989  
-- **Região com maior número de registros:** Sudeste  
-- **Estado com maior número de óbitos:** São Paulo  
-- **Participação do Sudeste no total nacional:** aproximadamente 44%
+- **População total do Brasil (2022):** 203.062.512 habitantes  
+- **População total do Brasil (2010):** 190.755.799 habitantes  
+- **Crescimento populacional (2010–2022):** 12.306.713 habitantes  
+- **Região mais populosa:** Sudeste  
+- **Estado mais populoso:** São Paulo  
+- **Participação do Sudeste no total nacional:** aproximadamente 41,8%
 
 ---
 
@@ -62,16 +65,20 @@ A análise apresenta alguns indicadores importantes:
 O painel foi estruturado utilizando diferentes elementos visuais do **Power BI**, incluindo:
 
 - **KPIs (Indicadores principais)**  
-  - Total de óbitos
-  - Região com maior número de registros
-  - Estado com maior número de registros
-  - Percentual regional
+  - População total (2010 e 2022)
+  - Crescimento populacional
+  - Região mais populosa
+  - Estado mais populoso
+  - Percentual por região
 
 - **Mapa do Brasil**
-  - Visualização geográfica da distribuição de óbitos por estado
+  - Visualização geográfica da distribuição populacional por estado
 
 - **Gráfico de barras por Unidade Federativa**
-  - Comparação entre estados com maior número de registros
+  - Comparação da população entre estados
+
+- **Gráfico de evolução temporal**
+  - Crescimento da população entre 2010 e 2022
 
 - **Gráfico de distribuição percentual por região**
   - Representação da participação de cada região no total nacional
@@ -82,7 +89,7 @@ O painel foi estruturado utilizando diferentes elementos visuais do **Power BI**
 
 - **Power BI**
 - **Figma**
-- **Trello*
+- **Trello**
 - **Modelagem de dados**
 - **Visualização de dados**
 - **Análise estatística exploratória**
@@ -91,4 +98,5 @@ O painel foi estruturado utilizando diferentes elementos visuais do **Power BI**
 
 ## 📷 Preview do Dashboard
 
-![Dashboard Power BI](https://i.ibb.co/kshv793d/Print-1-AC.png)
+![Dashboard Inicial Power BI](https://i.ibb.co/QFMBLFQL/Dashboard-Inicial.png)
+![Dashboard Principal Power BI](https://i.ibb.co/FFT6S0V/Dashboard-Principal.png)
