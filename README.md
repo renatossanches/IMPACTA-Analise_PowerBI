@@ -16,7 +16,7 @@ O principal objetivo da reformulação foi reduzir distorções causadas por an�
 |---|---|
 | 📂 Repositório GitHub | https://github.com/renatossanches/IMPACTA-Analise_PowerBI |
 | 📋 Trello | https://shre.ink/trello-AC3 |
-| 🎥 Vídeo de Apresentação | https://shre.ink/loom-AC3 |
+| 🎥 Vídeo de Apresentação | https://shre.ink/loom-ac3 |
 | 📊 API IBGE - Dados Populacionais | https://shre.ink/API-IBGE-AC1 |
 | 📈 Base de Dados AC3 | https://shre.ink/IBGE-dadosAC3 |
 
