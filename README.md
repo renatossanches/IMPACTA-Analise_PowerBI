@@ -1,102 +1,157 @@
-# 📊 Análise da População Brasileira por Região - 2010 a 2022 (Power BI)
+```md id="91md42"
+# 📊 Análise Demográfica Brasileira e Taxa de Mortalidade por Estado (Power BI)
 
 ## 📌 Sobre o Projeto
 
-Este projeto apresenta um **dashboard analítico desenvolvido no Power BI** para análise da evolução da população brasileira entre os anos de 2010 e 2022.  
+Este projeto apresenta uma versão reformulada do dashboard analítico desenvolvido no Microsoft Power BI para análise demográfica brasileira utilizando dados públicos do IBGE.
 
-Os dados utilizados são provenientes do Instituto Brasileiro de Geografia e Estatística (IBGE), com base no **Censo Demográfico**, permitindo a visualização de indicadores relevantes sobre o crescimento populacional no país.
+A nova atualização trouxe melhorias significativas na análise estatística, visualização de dados e experiência do usuário, permitindo interpretações mais precisas sobre população, distribuição regional e taxa de mortalidade entre os estados brasileiros.
 
-O objetivo principal do painel é **apresentar de forma visual e interativa a evolução da população brasileira ao longo do tempo**, possibilitando identificar tendências de crescimento, diferenças regionais e a participação de cada região no total nacional.
-
----
-
-## 👥 Representantes do Projeto
-
-| Nome                          | RA      |
-|--------------------------------|---------|
-| Renato de Sousa Sanches        | 2401923 |
-| Pedro Henrique Mendonça Amorim | 2301517 |
-| Anderson de Oliveira de Souza  | 2302073 |
+O principal objetivo da reformulação foi reduzir distorções causadas por análises absolutas e tornar os indicadores mais proporcionais, dinâmicos e intuitivos.
 
 ---
 
-## 🔗 Links do Entregável
+# 🔗 Links do Projeto
+
+- 📂 **Repositório GitHub:**  
+  https://github.com/renatossanches/IMPACTA-Analise_PowerBI
 
 - 📋 **Trello:**  
-  https://trello.com/b/IlrF2NYO/analise-powerbi  
+  https://shre.ink/trello-AC3
 
-- 📊 **API do IBGE:**  
-**IBGE (2010):** https://shre.ink/IBGE-2010 \
-**IBGE (2022):** https://shre.ink/IBGE-2022
+- 🎥 **Vídeo de Apresentação:**  
+  https://shre.ink/loom-AC3
 
-- 🎥 **Vídeo**
+- 📊 **API IBGE - Dados Populacionais:**  
+  https://shre.ink/API-IBGE-AC1
 
-[![Assistir vídeo](https://i.ibb.co/FFT6S0V/Dashboard-Principal.png)](https://www.loom.com/share/a5bb8863ac334280a95f8b43550e2158)
-
----
-
-## 🎯 Objetivo do Dashboard
-
-O dashboard foi desenvolvido com os seguintes objetivos:
-
-- Apresentar o **total da população brasileira em 2010 e 2022**
-- Identificar **regiões com maior crescimento populacional**
-- Comparar **a evolução da população entre estados e regiões**
-- Visualizar a **distribuição geográfica da população**
-- Facilitar a **interpretação estatística através de visualizações interativas**
+- 📈 **Base de Dados AC3:**  
+  https://shre.ink/IBGE-dadosAC3
 
 ---
 
-## 📈 Principais Indicadores
+# 🚀 Principais Melhorias Implementadas
 
-A análise apresenta alguns indicadores importantes:
+## ✔ Novo Cálculo de Taxa de Mortalidade
 
-- **População total do Brasil (2022):** 203.062.512 habitantes  
-- **População total do Brasil (2010):** 190.755.799 habitantes  
-- **Crescimento populacional (2010–2022):** 12.306.713 habitantes  
-- **Região mais populosa:** Sudeste  
-- **Estado mais populoso:** São Paulo  
-- **Participação do Sudeste no total nacional:** aproximadamente 41,8%
+Foi implementado um novo indicador proporcional de taxa de mortalidade por estado, permitindo análises mais precisas e reduzindo assimetrias entre estados com populações diferentes.
+
+Essa melhoria possibilita comparações mais realistas entre os dados demográficos e os índices de óbitos.
 
 ---
 
-## 🧩 Componentes do Dashboard
+## ✔ Tooltips Interativas no Mapa
 
-O painel foi estruturado utilizando diferentes elementos visuais do **Power BI**, incluindo:
+O mapa do Brasil recebeu melhorias avançadas nas informações exibidas ao passar o cursor sobre cada estado.
 
-- **KPIs (Indicadores principais)**  
-  - População total (2010 e 2022)
-  - Crescimento populacional
-  - Região mais populosa
-  - Estado mais populoso
-  - Percentual por região
+Agora o usuário consegue visualizar:
 
-- **Mapa do Brasil**
-  - Visualização geográfica da distribuição populacional por estado
-
-- **Gráfico de barras por Unidade Federativa**
-  - Comparação da população entre estados
-
-- **Gráfico de evolução temporal**
-  - Crescimento da população entre 2010 e 2022
-
-- **Gráfico de distribuição percentual por região**
-  - Representação da participação de cada região no total nacional
+- Total de óbitos
+- Taxa de mortalidade
+- População do estado
+- Indicadores comparativos
+- Informações complementares em tempo real
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## ✔ Integração com Nova API do IBGE
 
-- **Power BI**
-- **Figma**
-- **Trello**
-- **Modelagem de dados**
-- **Visualização de dados**
-- **Análise estatística exploratória**
+Foi adicionado um novo indicador de taxa populacional utilizando a API atualizada do IBGE, permitindo maior precisão nos cálculos demográficos apresentados no dashboard.
 
 ---
 
-## 📷 Preview do Dashboard
+## ✔ Reformulação dos Gráficos
 
-![Dashboard Inicial Power BI](https://i.ibb.co/QFMBLFQL/Dashboard-Inicial.png)
-![Dashboard Principal Power BI](https://i.ibb.co/FFT6S0V/Dashboard-Principal.png)
+O gráfico de pizza foi removido devido à redundância visual e limitações analíticas.
+
+Em substituição, foi desenvolvido um gráfico dinâmico de linha, proporcionando:
+
+- Melhor interpretação temporal
+- Comparações mais claras
+- Visualização mais limpa
+- Melhor experiência analítica
+
+---
+
+## ✔ Atualização do Glossário e Indicadores
+
+O glossário técnico do projeto foi atualizado com novos indicadores estatísticos e descrições detalhadas tanto no repositório quanto no arquivo do Power BI.
+
+---
+
+# 👥 Representantes do Projeto
+
+| Nome | RA |
+|---|---|
+| Renato de Sousa Sanches | 2401923 |
+| Pedro Henrique Mendonça Amorim | 2301517 |
+| Anderson de Oliveira de Souza | 2302073 |
+
+---
+
+# 🎯 Objetivos da Nova Versão
+
+- Melhorar a precisão estatística das análises
+- Reduzir assimetrias nos indicadores
+- Tornar o dashboard mais intuitivo
+- Melhorar a experiência visual e interativa
+- Facilitar análises comparativas entre estados e regiões
+- Modernizar os componentes gráficos
+
+---
+
+# 📈 Novos Indicadores Disponíveis
+
+- Taxa de mortalidade por estado
+- Indicador proporcional populacional
+- Comparativo regional de óbitos
+- Crescimento populacional
+- Indicadores demográficos dinâmicos
+- Métricas comparativas por região
+
+---
+
+# 🧩 Componentes Atualizados do Dashboard
+
+## 📍 Mapa Interativo
+- Tooltips avançadas
+- Indicadores dinâmicos
+- Comparativos estaduais
+
+## 📈 Gráfico Dinâmico de Linha
+- Evolução temporal
+- Comparação populacional
+- Análise proporcional
+
+## 📊 KPIs Inteligentes
+- Taxa de mortalidade
+- População total
+- Crescimento populacional
+- Estado mais populoso
+- Região com maior índice demográfico
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+- Microsoft Power BI
+- API do IBGE
+- Power Query
+- DAX
+- Figma
+- Trello
+- Modelagem de Dados
+- Visualização Analítica
+
+---
+
+# 📷 Preview do Dashboard
+
+![Dashboard Principal Power BI](https://i.ibb.co/7xnTzZcb/BI.png)
+
+---
+
+# 📌 Conclusão
+
+A reformulação do projeto tornou o dashboard mais moderno, preciso e analiticamente eficiente. As novas implementações permitiram uma visualização mais clara dos dados demográficos brasileiros, proporcionando análises mais confiáveis e melhor experiência para interpretação estatística e tomada de decisão.
+```
