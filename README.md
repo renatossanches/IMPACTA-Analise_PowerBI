@@ -16,9 +16,13 @@ O principal objetivo da reformulação foi reduzir distorções causadas por an�
 |---|---|
 | 📂 Repositório GitHub | https://github.com/renatossanches/IMPACTA-Analise_PowerBI |
 | 📋 Trello | https://shre.ink/trello-AC3 |
-| 🎥 Vídeo de Apresentação | https://shre.ink/loom-ac3 |
-| 📊 API IBGE - Dados Populacionais | https://shre.ink/API-IBGE-AC1 |
+| 📊 API IBGE - Dados Populacionais AC1 | https://shre.ink/API-IBGE-AC1 |
 | 📈 Base de Dados AC3 | https://shre.ink/IBGE-dadosAC3 |
+
+---
+
+## 🎥 Vídeo de Apresentação
+ [![Assistir vídeo](https://i.ibb.co/JWC7Lq3p/Tela-Inicial-AC3.png)](https://shre.ink/loom-ac3)
 
 ---
 
@@ -142,9 +146,8 @@ O glossário técnico do projeto foi atualizado com novos indicadores estatísti
 
 ## 📷 Preview do Dashboard
 
-<p align="center">
-  <img src="https://i.ibb.co/7xnTzZcb/BI.png" alt="Dashboard Principal Power BI" width="900"/>
-</p>
+![Dashboard Inicial Power BI](https://i.ibb.co/JWC7Lq3p/Tela-Inicial-AC3.png)
+![Dashboard Glossario](https://i.ibb.co/4nJG8ymr/Gloss-rio-AC3.png)
 
 ---
 
